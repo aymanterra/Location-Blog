@@ -38,7 +38,7 @@ class PostsController extends Controller
 
             'title' => 'required|string|max:190|min:2',
             'subtitle' => 'required|string|max:190|min:2',
-            'body' => 'required|text|min:2', 
+            'body' => 'required|min:2', 
 
         ]);
 
